@@ -1,0 +1,75 @@
+#logo{
+    height: 100px;
+    position: relative;
+}
+#logo_img{
+    position: absolute;
+    top: 10px;
+    padding-left: 30px;
+    height: 80px;
+}
+
+#logo_text{
+    font-size: 50px;
+    font-weight: bolder;
+    display: inline;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+
+#gray_bg{
+    width: auto;
+    height: 90vh;
+    background-color: rgba(246,248,249,255);
+    
+}
+
+#bianco{
+    margin-top: 700px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-bottom:2px solid rgba(246,248,249,255);
+}
+
+#tasks{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.sezione{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.voce{
+    font-size: 20px;
+}
+.hilight{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #45abea;
+}
+
+.lista{
+    padding: 10px;
+}
+
+.done{
+    color: rgba(156,218,204,255);
+    
+}
+
+.to_do{
+    color: #eb483d;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
