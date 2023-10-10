@@ -1,3 +1,4 @@
+/* posizionamento logo */
 #logo{
     height: 100px;
     position: relative;
@@ -8,7 +9,7 @@
     padding-left: 30px;
     height: 80px;
 }
-
+/* canto logo testo (?) */
 #logo_text{
     font-size: 50px;
     font-weight: bolder;
@@ -17,21 +18,38 @@
     left: 120px;
     top: 25px;
 }
-
+/* sfondo grigio esterno  */
 #gray_bg{
     width: auto;
     height: 90vh;
     background-color: rgba(246,248,249,255);
     
 }
+/* stile bottoni */
 
+
+#task_button{
+    background-color: #47adf1;
+    padding: 10px;
+    border-radius: 10px;
+}
+#section_button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* sfondo centrato main bianco */
 #bianco{
-    margin-top: 700px;
     width: 80%;
+    height: 50px;
+    padding-top: 40px;
     margin: auto;
+    padding-top: 0;
     background-color: white;
     border-bottom:2px solid rgba(246,248,249,255);
 }
+
+
 
 #tasks{
     background-color: white;
@@ -41,22 +59,61 @@
 }
 
 .sezione{
+    padding-top: 20px;
     font-size: 25px;
     padding-bottom: 20px;
 }
 
-.voce{
-    font-size: 20px;
-}
+
+
+/* inserimento colori per icone dx */
+
+
 .hilight{
     padding: 5px;
     border-radius: 20px;
     background-color: #45abea;
 }
 
+.hilight_violet{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #976be2;
+}
+
+.hilight_green{
+    padding: 5px;
+    border-radius: 20px;
+    background-color:#62bfa8;
+}
+
+
+.hilight_orange{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #f29e33;
+}
+
+
+.hilight_pink{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #d863a1;
+}
+
+.hilight_yellow{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #b0c926;
+}
+
+/* fine inserimento colori icone dx */
+
 .lista{
     padding: 10px;
 }
+
+/* colori entities */
 
 .done{
     color: rgba(156,218,204,255);
@@ -66,6 +123,8 @@
 .to_do{
     color: #eb483d;
 }
+
+
 
 
 *{
